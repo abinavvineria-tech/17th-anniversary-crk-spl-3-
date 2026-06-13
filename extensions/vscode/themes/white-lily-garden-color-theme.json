@@ -1,0 +1,119 @@
+{
+  "name": "White Lily Garden",
+  "type": "light",
+  "colors": {
+    "editorBackground": "#F0FFF4",
+    "editorForeground": "#2D3A2D",
+    "editorLineHighlight": "#E0FFE8",
+    "editorSelection": "#C8F0D0",
+    "editorCursor": "#2ECC71",
+    "editorLineNumbers": "#8AB89A",
+    "editorIndentGuides": "#D0E8D0",
+    "activityBarBackground": "#E0FFE8",
+    "activityBarForeground": "#2D3A2D",
+    "sideBarBackground": "#F0FFF4",
+    "sideBarBorder": "#D0E8D0",
+    "listActiveBackground": "#C8F0D0",
+    "statusBarBackground": "#2ECC71",
+    "statusBarForeground": "#FFFFFF",
+    "tabActiveBorder": "#2ECC71",
+    "inputBorder": "#D0E8D0",
+    "buttonBackground": "#2ECC71",
+    "focusBorder": "#2ECC71",
+    "titleBarBackground": "#F0FFF4",
+    "titleBarForeground": "#2D3A2D",
+    "panelBorder": "#D0E8D0",
+    "dropdownBorder": "#D0E8D0",
+    "scrollbarSliderBackground": "#2ECC7180"
+  },
+  "tokenColors": [
+    {
+      "scope": [
+        "keyword.control.bloom.purelily",
+        "keyword.control.ancient.purelily",
+        "keyword.control.wish.purelily",
+        "keyword.control.friend.purelily",
+        "keyword.control.heal.purelily",
+        "keyword.control.iflight.purelily",
+        "keyword.control.moonpath.purelily",
+        "keyword.control.repeat.purelily",
+        "keyword.control.timeflow.purelily",
+        "keyword.control.purelily",
+        "keyword.other.purelily"
+      ],
+      "settings": {
+        "foreground": "#27AE60",
+        "fontStyle": "bold"
+      }
+    },
+    {
+      "scope": [
+        "keyword.async.purelily"
+      ],
+      "settings": {
+        "foreground": "#8B5CF6",
+        "fontStyle": "bold"
+      }
+    },
+    {
+      "scope": [
+        "string.quoted.double.purelily"
+      ],
+      "settings": {
+        "foreground": "#1ABC9C"
+      }
+    },
+    {
+      "scope": [
+        "constant.numeric.purelily"
+      ],
+      "settings": {
+        "foreground": "#F39C12"
+      }
+    },
+    {
+      "scope": [
+        "entity.name.function.purelily"
+      ],
+      "settings": {
+        "foreground": "#F5DEB3"
+      }
+    },
+    {
+      "scope": [
+        "entity.name.type.purelily"
+      ],
+      "settings": {
+        "foreground": "#C0392B",
+        "fontStyle": "bold"
+      }
+    },
+    {
+      "scope": [
+        "support.module.purelily"
+      ],
+      "settings": {
+        "foreground": "#2980B9"
+      }
+    },
+    {
+      "scope": [
+        "comment.line.double-slash.purelily",
+        "comment.block.purelily"
+      ],
+      "settings": {
+        "foreground": "#2ECC71",
+        "fontStyle": "italic"
+      }
+    },
+    {
+      "scope": [
+        "constant.other.purelily"
+      ],
+      "settings": {
+        "foreground": "#B8860B",
+        "fontStyle": "bold"
+      }
+    }
+  ]
+}

@@ -1,0 +1,119 @@
+{
+  "name": "Golden Cheese Treasury",
+  "type": "light",
+  "colors": {
+    "editorBackground": "#FFFDF0",
+    "editorForeground": "#4A3F20",
+    "editorLineHighlight": "#FFF8D0",
+    "editorSelection": "#FFE4A0",
+    "editorCursor": "#D4A017",
+    "editorLineNumbers": "#C4A040",
+    "editorIndentGuides": "#E8D8A0",
+    "activityBarBackground": "#FFE4A0",
+    "activityBarForeground": "#4A3F20",
+    "sideBarBackground": "#FFFDF0",
+    "sideBarBorder": "#E8D8A0",
+    "listActiveBackground": "#FFE4A0",
+    "statusBarBackground": "#D4A017",
+    "statusBarForeground": "#FFFFFF",
+    "tabActiveBorder": "#D4A017",
+    "inputBorder": "#E8D8A0",
+    "buttonBackground": "#D4A017",
+    "focusBorder": "#D4A017",
+    "titleBarBackground": "#FFFDF0",
+    "titleBarForeground": "#D4A017",
+    "panelBorder": "#E8D8A0",
+    "dropdownBorder": "#E8D8A0",
+    "scrollbarSliderBackground": "#D4A01780"
+  },
+  "tokenColors": [
+    {
+      "scope": [
+        "keyword.control.bloom.purelily",
+        "keyword.control.ancient.purelily",
+        "keyword.control.wish.purelily",
+        "keyword.control.friend.purelily",
+        "keyword.control.heal.purelily",
+        "keyword.control.iflight.purelily",
+        "keyword.control.moonpath.purelily",
+        "keyword.control.repeat.purelily",
+        "keyword.control.timeflow.purelily",
+        "keyword.control.purelily",
+        "keyword.other.purelily"
+      ],
+      "settings": {
+        "foreground": "#B8860B",
+        "fontStyle": "bold"
+      }
+    },
+    {
+      "scope": [
+        "keyword.async.purelily"
+      ],
+      "settings": {
+        "foreground": "#8B5CF6",
+        "fontStyle": "bold"
+      }
+    },
+    {
+      "scope": [
+        "string.quoted.double.purelily"
+      ],
+      "settings": {
+        "foreground": "#2ECC71"
+      }
+    },
+    {
+      "scope": [
+        "constant.numeric.purelily"
+      ],
+      "settings": {
+        "foreground": "#D4A017"
+      }
+    },
+    {
+      "scope": [
+        "entity.name.function.purelily"
+      ],
+      "settings": {
+        "foreground": "#CD853F"
+      }
+    },
+    {
+      "scope": [
+        "entity.name.type.purelily"
+      ],
+      "settings": {
+        "foreground": "#C0392B",
+        "fontStyle": "bold"
+      }
+    },
+    {
+      "scope": [
+        "support.module.purelily"
+      ],
+      "settings": {
+        "foreground": "#4A90D9"
+      }
+    },
+    {
+      "scope": [
+        "comment.line.double-slash.purelily",
+        "comment.block.purelily"
+      ],
+      "settings": {
+        "foreground": "#1ABC9C",
+        "fontStyle": "italic"
+      }
+    },
+    {
+      "scope": [
+        "constant.other.purelily"
+      ],
+      "settings": {
+        "foreground": "#B8860B",
+        "fontStyle": "bold"
+      }
+    }
+  ]
+}

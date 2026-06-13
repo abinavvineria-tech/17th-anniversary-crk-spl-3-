@@ -1,0 +1,39 @@
+{
+  "name": "purelily-17",
+  "version": "17.0.0",
+  "description": "🌸 PureLily 17 - The official programming language of the Cookie Kingdom",
+  "private": true,
+  "workspaces": [
+    "extensions/vscode",
+    "packages/*"
+  ],
+  "scripts": {
+    "build": "npm run build:grammar && npm run build:lsp && npm run build:cli",
+    "build:grammar": "node src/grammar/build.js",
+    "build:lsp": "node src/lsp/build.js",
+    "build:cli": "node src/cli/build.js",
+    "dev": "node src/cli/index.js dev",
+    "start": "node src/cli/index.js",
+    "test": "node src/cli/index.js test",
+    "lint": "node src/cli/index.js lint",
+    "format": "node src/cli/index.js format",
+    "docs": "node src/docs/generate.js"
+  },
+  "bin": {
+    "lily": "src/cli/index.js"
+  },
+  "keywords": [
+    "purelily",
+    "cookie-run",
+    "programming-language",
+    "lsp",
+    "language-server",
+    "17th-anniversary"
+  ],
+  "license": "MIT",
+  "dependencies": {
+    "commander": "^15.0.0",
+    "vscode-languageserver": "^10.0.0",
+    "vscode-languageserver-textdocument": "^1.0.12"
+  }
+}

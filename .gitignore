@@ -1,0 +1,6 @@
+node_modules/
+kingdom_modules/
+dist/
+*.lily.json
+.DS_Store
+*.vsix

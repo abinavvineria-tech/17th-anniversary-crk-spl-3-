@@ -1,0 +1,179 @@
+const fs = require('fs');
+const path = require('path');
+
+function generateDocs() {
+  const docsDir = path.join(__dirname, '../../docs');
+  if (!fs.existsSync(docsDir)) {
+    fs.mkdirSync(docsDir, { recursive: true });
+  }
+
+  const pages = {
+    'index.html': `<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>🌸 PureLily 17 - Cookie Kingdom Language</title>
+  <style>
+    :root {
+      --gold: #D4AF37;
+      --cream: #FFF8E7;
+      --brown: #4A3728;
+      --green: #2ECC71;
+      --purple: #8B5CF6;
+      --blue: #4A90D9;
+      --crimson: #C0392B;
+    }
+    * { margin: 0; padding: 0; box-sizing: border-box; }
+    body { font-family: 'Segoe UI', system-ui, sans-serif; background: var(--cream); color: var(--brown); line-height: 1.6; }
+    .hero { background: linear-gradient(135deg, #FFD700, #FFA500); color: white; padding: 80px 20px; text-align: center; }
+    .hero h1 { font-size: 3em; margin-bottom: 10px; }
+    .hero p { font-size: 1.2em; opacity: 0.9; }
+    .container { max-width: 800px; margin: 0 auto; padding: 40px 20px; }
+    h2 { color: var(--gold); margin: 30px 0 15px; border-bottom: 2px solid var(--gold); padding-bottom: 5px; }
+    pre { background: #1E1E1E; color: #D4D4D4; padding: 15px; border-radius: 8px; overflow-x: auto; margin: 10px 0; }
+    code { font-family: 'Fira Code', monospace; }
+    .feature-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(200px, 1fr)); gap: 15px; margin: 20px 0; }
+    .feature-card { background: white; border: 1px solid #E8D5B5; border-radius: 8px; padding: 15px; text-align: center; }
+    .feature-card h3 { color: var(--gold); }
+    .btn { display: inline-block; background: var(--gold); color: white; padding: 12px 24px; border-radius: 8px; text-decoration: none; margin: 10px; font-weight: bold; }
+    .btn:hover { background: #C4A030; }
+    footer { text-align: center; padding: 40px; color: #8A7A6A; }
+  </style>
+</head>
+<body>
+  <section class="hero">
+    <h1>🌸 PureLily 17</h1>
+    <p>The official programming language of the Cookie Kingdom</p>
+    <p style="margin-top: 10px; font-size: 0.9em;">🎉 Celebrating 17 Years of Cookie Run 🎉</p>
+    <div style="margin-top: 30px;">
+      <a href="#install" class="btn">📦 Install</a>
+      <a href="#quickstart" class="btn">🚀 Quick Start</a>
+      <a href="#docs" class="btn">📖 Documentation</a>
+    </div>
+  </section>
+
+  <div class="container">
+    <h2>✨ What is PureLily 17?</h2>
+    <p>PureLily 17 is a beautiful, powerful, beginner-friendly programming language that celebrates 17 years of Cookie Run. It features a complete compiler, package manager, registry, formatter, linter, LSP, IDE ecosystem, and magical developer experience.</p>
+
+    <h2>🌟 Features</h2>
+    <div class="feature-grid">
+      <div class="feature-card"><h3>🧠 Smart LSP</h3><p>Auto-completion, type checking, diagnostics</p></div>
+      <div class="feature-card"><h3>🎨 12 Themes</h3><p>Cookie-inspired themes for every taste</p></div>
+      <div class="feature-card"><h3>📦 Package Manager</h3><p>Kingdom Package Manager with Cookie Registry</p></div>
+      <div class="feature-card"><h3>🔧 All Tools</h3><p>Compiler, formatter, linter, debugger</p></div>
+      <div class="feature-card"><h3>📖 Cookie Knowledge</h3><p>Learn Cookie Run lore while coding</p></div>
+      <div class="feature-card"><h3>🎉 17th Anniversary</h3><p>Celebrating 17 years of Cookie Run</p></div>
+    </div>
+
+    <h2 id="quickstart">🚀 Quick Start</h2>
+    <pre><code># Create a new project
+lily new my-kingdom
+
+# Run your code
+cd my-kingdom
+lily run src/index.lily
+
+# Format and lint
+lily format src/
+lily lint src/
+
+# Build
+lily build
+
+# Start the Language Server
+lily lsp start</code></pre>
+
+    <h2>🍪 Hello, Cookie Kingdom!</h2>
+    <pre><code>// 🌸 PureLily 17
+// 🎉 Celebrating 17 Years of Cookie Run!
+
+fn greet(name: string) -> string {
+    return "Welcome to the Cookie Kingdom, " + name + "!"
+}
+
+const ANNIVERSARY = 17
+
+fn main() {
+    let message = greet("Pure Vanilla")
+    print(message)
+    print("🎉 Happy " + ANNIVERSARY + "th Anniversary!")
+}
+
+main()</code></pre>
+
+    <h2 id="install">📦 Installation</h2>
+    <pre><code># Install the Lily CLI
+npm install -g purelily-17
+
+# Verify installation
+lily --version
+
+# Start the Language Server
+lily lsp start</code></pre>
+
+    <h2>🎨 Cookie Kingdom Syntax</h2>
+    <pre><code>// Keywords glow in Royal Gold
+bloom ancient wish friend heal
+iflight moonpath repeat timeflow
+
+// Strings in White Lily Green
+"Hello Cookie Run"
+
+// Numbers in Golden Cheese Yellow
+17 42 100
+
+// Functions in Pure Vanilla Cream
+fn greet() { }
+
+// Classes in Hollyberry Crimson
+class Cookie { }
+
+// Modules in Moonlight Blue
+import friendship from "friendship.core"
+
+// Async in Timekeeper Purple
+await timeflow { }
+
+// Constants in Ancient Gold
+const ANNIVERSARY = 17</code></pre>
+
+    <h2>📖 Cookie Knowledge System</h2>
+    <p>Hover over any Cookie-themed package to see lore-inspired documentation:</p>
+    <pre><code>import friendship from "friendship.core"
+
+// 💚 Friendship Core
+// Inspired by the friendship between
+// Pure Vanilla Cookie and White Lily Cookie.
+// Provides: friendship.bloom(), friendship.unity(), friendship.hope()</code></pre>
+
+    <h2>🌐 Editor Support</h2>
+    <div class="feature-grid">
+      <div class="feature-card"><h3>VS Code</h3><p>Full extension with themes</p></div>
+      <div class="feature-card"><h3>Neovim</h3><p>LSP + Treesitter support</p></div>
+      <div class="feature-card"><h3>Helix</h3><p>Built-in LSP support</p></div>
+      <div class="feature-card"><h3>Zed</h3><p>LSP integration</p></div>
+      <div class="feature-card"><h3>Emacs</h3><p>Eglot/LSP mode</p></div>
+      <div class="feature-card"><h3>OpenCode</h3><p>Native LSP support</p></div>
+    </div>
+
+    <footer>
+      <p>🌸 PureLily 17 — The official programming language of the Cookie Kingdom</p>
+      <p>🎉 Celebrating 17 Years of Cookie Run 🎉</p>
+      <p style="margin-top: 10px;">Made with 💚 by the Cookie Kingdom Developer Community</p>
+    </footer>
+  </div>
+</body>
+</html>`
+  };
+
+  for (const [file, content] of Object.entries(pages)) {
+    fs.writeFileSync(path.join(docsDir, file), content);
+    console.log(`  ✅ Generated: docs/${file}`);
+  }
+
+  console.log('\n📖 Documentation generated!');
+}
+
+generateDocs();

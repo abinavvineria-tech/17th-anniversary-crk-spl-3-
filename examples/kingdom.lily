@@ -1,0 +1,101 @@
+// 🏰 Cookie Kingdom - PureLily 17 Demo
+// A showcase of Cookie Kingdom features
+
+import friendship from "friendship.core"
+import timekeeper from "timekeeper.flow"
+
+// 🍦 Pure Vanilla's Healing Light
+bloom PureVanilla {
+    fn heal(target: Cookie, amount: int) {
+        target.hp = target.hp + amount
+        print("💚 " + target.name + " healed for " + amount)
+    }
+    
+    fn purify(target: Cookie) {
+        target.cursed = false
+        print("✨ " + target.name + " has been purified!")
+    }
+}
+
+// 🌿 White Lily's Ancient Knowledge
+ancient WhiteLily {
+    fn seek_knowledge(topic: string) -> string {
+        match topic {
+            "ancient" => return "The Ancient Heroes saved the kingdom..."
+            "friendship" => return "Friendship is the greatest magic..."
+            "anniversary" => return "17 years of sweetness and joy!"
+            _ => return "The Cookie Kingdom is full of mysteries..."
+        }
+    }
+}
+
+// 🐉 Dragon Powers
+dragon PitayaDragon {
+    fn breathe_fire() {
+        print("🔥 Dragon breath! The power of Pitaya Dragon!")
+    }
+}
+
+// ⏳ Timekeeper's Temporal Magic
+timeflow {
+    // Async operations within timeflow
+    
+    await bloom(cookie)
+    await wish("for peace and harmony")
+    
+    // Time manipulation
+    timekeeper.rewind(memory)
+    timekeeper.accelerate(process)
+}
+
+// 💚 The Power of Friendship
+friend PureVanillaAndWhiteLily {
+    // Their bond transcends time
+    fn united_we_stand() {
+        friendship.bloom()
+        friendship.unity()
+        friendship.hope()
+    }
+}
+
+// 🌙 Moonpath Dreams
+moonpath {
+    // Dreams and starlight
+    let dream = MoonlightCookie.enter_dream()
+    dream.explore()
+}
+
+// 🎉 Anniversary Celebration
+const ANNIVERSARY = 17
+
+fn celebrate() {
+    repeat ANNIVERSARY times {
+        print("🎉 Happy 17th Anniversary! 🎉")
+        glow(brighter)
+    }
+    
+    // Fireworks display
+    for i in 1..=17 {
+        print("✨ " + i + " ✨")
+    }
+}
+
+fn main() {
+    print("🌸 Welcome to PureLily 17!")
+    print("🏰 The Cookie Kingdom Programming Language")
+    print("🎉 Celebrating 17 Years of Cookie Run!")
+    
+    celebrate()
+    
+    // Pattern matching example
+    let cookieType = "ancient"
+    match cookieType {
+        "ancient" => print("🏛️ Ancient Cookie Power!")
+        "legendary" => print("🌊 Legendary Cookie Power!")
+        "beast" => print("👹 Beast Cookie Power!")
+        "dragon" => print("🐉 Dragon Cookie Power!")
+        _ => print("🍪 Regular Cookie Power!")
+    }
+}
+
+main()

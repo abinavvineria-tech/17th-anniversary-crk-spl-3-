@@ -1,0 +1,163 @@
+{
+  "Function Declaration": {
+    "prefix": ["fn", "fun", "function"],
+    "body": [
+      "fn ${1:name}(${2:params}) {",
+      "\t${3:// function body}",
+      "}"
+    ],
+    "description": "Define a function"
+  },
+  "Class Declaration": {
+    "prefix": ["class"],
+    "body": [
+      "class ${1:Cookie} {",
+      "\t${2:// class body}",
+      "}"
+    ],
+    "description": "Define a class"
+  },
+  "Struct Definition": {
+    "prefix": ["struct"],
+    "body": [
+      "struct ${1:Name} {",
+      "\t${2:field}: ${3:type}",
+      "}"
+    ],
+    "description": "Define a struct"
+  },
+  "Trait Definition": {
+    "prefix": ["trait"],
+    "body": [
+      "trait ${1:Name} {",
+      "\tfn ${2:method}(${3:params}) -> ${4:type}",
+      "}"
+    ],
+    "description": "Define a trait"
+  },
+  "Import Statement": {
+    "prefix": ["import"],
+    "body": [
+      "import ${1:name} from \"${2:module}\""
+    ],
+    "description": "Import a module"
+  },
+  "For Loop": {
+    "prefix": ["for"],
+    "body": [
+      "for ${1:item} in ${2:items} {",
+      "\t${3}",
+      "}"
+    ],
+    "description": "For loop"
+  },
+  "While Loop": {
+    "prefix": ["while"],
+    "body": [
+      "while ${1:condition} {",
+      "\t${2}",
+      "}"
+    ],
+    "description": "While loop"
+  },
+  "Match Expression": {
+    "prefix": ["match"],
+    "body": [
+      "match ${1:value} {",
+      "\t${2:pattern} => ${3:result}",
+      "}"
+    ],
+    "description": "Match expression"
+  },
+  "If/Else": {
+    "prefix": ["if"],
+    "body": [
+      "if ${1:condition} {",
+      "\t${2}",
+      "} else {",
+      "\t${3}",
+      "}"
+    ],
+    "description": "If/else statement"
+  },
+  "Bloom Block": {
+    "prefix": ["bloom"],
+    "body": [
+      "bloom ${1:target} {",
+      "\t${2}",
+      "}"
+    ],
+    "description": "Bloom block - awaken power"
+  },
+  "Timeflow Block": {
+    "prefix": ["timeflow"],
+    "body": [
+      "timeflow {",
+      "\tawait ${1:operation}(${2})",
+      "}"
+    ],
+    "description": "Timeflow async block"
+  },
+  "Moonpath Block": {
+    "prefix": ["moonpath"],
+    "body": [
+      "moonpath {",
+      "\t${1:// dreams and starlight}",
+      "}"
+    ],
+    "description": "Moonpath block"
+  },
+  "Friendship Block": {
+    "prefix": ["friend"],
+    "body": [
+      "friend ${1:name} {",
+      "\t${2}",
+      "}"
+    ],
+    "description": "Friendship block"
+  },
+  "Repeat Loop": {
+    "prefix": ["repeat"],
+    "body": [
+      "repeat ${1:17} times {",
+      "\t${2}",
+      "}"
+    ],
+    "description": "Repeat loop"
+  },
+  "Anniversary Celebration": {
+    "prefix": ["anniversary", "celebrate"],
+    "body": [
+      "// 🎉 PureLily 17 - Cookie Run 17th Anniversary",
+      "// 🌸 Celebrating 17 years of sweetness!",
+      "",
+      "const ANNIVERSARY = 17",
+      "",
+      "fn celebrate() {",
+      "\trepeat ANNIVERSARY times {",
+      "\t\tprint(\"🎉 Happy 17th Anniversary, Cookie Run! 🎉\")",
+      "\t}",
+      "}"
+    ],
+    "description": "Anniversary celebration template"
+  },
+  "PureLily Main": {
+    "prefix": ["main", "template"],
+    "body": [
+      "// 🌸 PureLily 17 - ${1:project name}",
+      "// 🎉 Celebrating 17 Years of Cookie Run!",
+      "",
+      "import friendship from \"friendship.core\"",
+      "",
+      "fn main() {",
+      "\tconst ANNIVERSARY = 17",
+      "\tlet message = \"Welcome to the Cookie Kingdom!\"",
+      "\tprint(message)",
+      "\tprint(\"🌸 PureLily 17 v\" + ANNIVERSARY)",
+      "}",
+      "",
+      "main()"
+    ],
+    "description": "PureLily main template"
+  }
+}

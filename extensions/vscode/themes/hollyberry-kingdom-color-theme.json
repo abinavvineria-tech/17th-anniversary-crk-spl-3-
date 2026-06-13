@@ -1,0 +1,133 @@
+{
+  "name": "Hollyberry Kingdom",
+  "type": "dark",
+  "colors": {
+    "editorBackground": "#1A0A0A",
+    "editorForeground": "#F0D0D0",
+    "editorLineHighlight": "#2A1515",
+    "editorSelection": "#4A2020",
+    "editorCursor": "#E74C3C",
+    "editorLineNumbers": "#8A4040",
+    "editorIndentGuides": "#3A2020",
+    "activityBarBackground": "#2A1515",
+    "activityBarForeground": "#E74C3C",
+    "sideBarBackground": "#1A0A0A",
+    "sideBarBorder": "#3A2020",
+    "listActiveBackground": "#4A2020",
+    "statusBarBackground": "#C0392B",
+    "statusBarForeground": "#FFFFFF",
+    "tabActiveBorder": "#E74C3C",
+    "inputBackground": "#2A1515",
+    "inputForeground": "#F0D0D0",
+    "inputBorder": "#4A2020",
+    "buttonBackground": "#C0392B",
+    "focusBorder": "#E74C3C",
+    "titleBarBackground": "#1A0A0A",
+    "titleBarForeground": "#E74C3C",
+    "terminalBackground": "#1A0A0A",
+    "terminalForeground": "#F0D0D0",
+    "terminalCursor": "#E74C3C",
+    "terminalAnsiRed": "#E74C3C",
+    "terminalAnsiGreen": "#2ECC71",
+    "terminalAnsiYellow": "#F1C40F",
+    "terminalAnsiBlue": "#3498DB",
+    "terminalAnsiMagenta": "#9B59B6",
+    "terminalAnsiCyan": "#1ABC9C",
+    "panelBackground": "#1A0A0A",
+    "panelBorder": "#3A2020",
+    "dropdownBackground": "#2A1515",
+    "dropdownForeground": "#F0D0D0",
+    "dropdownBorder": "#4A2020",
+    "scrollbarSliderBackground": "#C0392B80"
+  },
+  "tokenColors": [
+    {
+      "scope": [
+        "keyword.control.bloom.purelily",
+        "keyword.control.ancient.purelily",
+        "keyword.control.wish.purelily",
+        "keyword.control.friend.purelily",
+        "keyword.control.heal.purelily",
+        "keyword.control.iflight.purelily",
+        "keyword.control.moonpath.purelily",
+        "keyword.control.repeat.purelily",
+        "keyword.control.timeflow.purelily",
+        "keyword.control.purelily",
+        "keyword.other.purelily"
+      ],
+      "settings": {
+        "foreground": "#E74C3C",
+        "fontStyle": "bold"
+      }
+    },
+    {
+      "scope": [
+        "keyword.async.purelily"
+      ],
+      "settings": {
+        "foreground": "#9B59B6",
+        "fontStyle": "bold"
+      }
+    },
+    {
+      "scope": [
+        "string.quoted.double.purelily"
+      ],
+      "settings": {
+        "foreground": "#2ECC71"
+      }
+    },
+    {
+      "scope": [
+        "constant.numeric.purelily"
+      ],
+      "settings": {
+        "foreground": "#F1C40F"
+      }
+    },
+    {
+      "scope": [
+        "entity.name.function.purelily"
+      ],
+      "settings": {
+        "foreground": "#F5DEB3"
+      }
+    },
+    {
+      "scope": [
+        "entity.name.type.purelily"
+      ],
+      "settings": {
+        "foreground": "#E74C3C",
+        "fontStyle": "bold"
+      }
+    },
+    {
+      "scope": [
+        "support.module.purelily"
+      ],
+      "settings": {
+        "foreground": "#3498DB"
+      }
+    },
+    {
+      "scope": [
+        "comment.line.double-slash.purelily",
+        "comment.block.purelily"
+      ],
+      "settings": {
+        "foreground": "#1ABC9C",
+        "fontStyle": "italic"
+      }
+    },
+    {
+      "scope": [
+        "constant.other.purelily"
+      ],
+      "settings": {
+        "foreground": "#F1C40F",
+        "fontStyle": "bold"
+      }
+    }
+  ]
+}

@@ -1,0 +1,147 @@
+{
+  "name": "Anniversary Celebration",
+  "type": "light",
+  "colors": {
+    "editorBackground": "#FFF0E0",
+    "editorForeground": "#4A2A1A",
+    "editorLineHighlight": "#FFE0C0",
+    "editorSelection": "#FFD0A0",
+    "editorCursor": "#FF6B35",
+    "editorLineNumbers": "#C08060",
+    "editorIndentGuides": "#E8C8A0",
+    "activityBarBackground": "#FF6347",
+    "activityBarForeground": "#FFFFFF",
+    "sideBarBackground": "#FFF0E0",
+    "sideBarBorder": "#E8C8A0",
+    "listActiveBackground": "#FFD0A0",
+    "statusBarBackground": "#FF6B35",
+    "statusBarForeground": "#FFFFFF",
+    "tabActiveBorder": "#FF6B35",
+    "inputBorder": "#E8C8A0",
+    "buttonBackground": "#FF6B35",
+    "focusBorder": "#FFD700",
+    "titleBarBackground": "#FF6B35",
+    "titleBarForeground": "#FFFFFF",
+    "panelBorder": "#E8C8A0",
+    "dropdownBorder": "#E8C8A0",
+    "scrollbarSliderBackground": "#FF6B3580"
+  },
+  "tokenColors": [
+    {
+      "scope": [
+        "keyword.control.bloom.purelily",
+        "keyword.control.ancient.purelily",
+        "keyword.control.wish.purelily",
+        "keyword.control.friend.purelily",
+        "keyword.control.heal.purelily",
+        "keyword.control.iflight.purelily",
+        "keyword.control.moonpath.purelily",
+        "keyword.control.repeat.purelily",
+        "keyword.control.timeflow.purelily",
+        "keyword.control.purelily",
+        "keyword.other.purelily"
+      ],
+      "settings": {
+        "foreground": "#FF6B35",
+        "fontStyle": "bold"
+      }
+    },
+    {
+      "scope": [
+        "keyword.async.purelily"
+      ],
+      "settings": {
+        "foreground": "#8B5CF6",
+        "fontStyle": "bold"
+      }
+    },
+    {
+      "scope": [
+        "string.quoted.double.purelily"
+      ],
+      "settings": {
+        "foreground": "#2ECC71"
+      }
+    },
+    {
+      "scope": [
+        "constant.numeric.purelily"
+      ],
+      "settings": {
+        "foreground": "#F1C40F"
+      }
+    },
+    {
+      "scope": [
+        "entity.name.function.purelily"
+      ],
+      "settings": {
+        "foreground": "#F5DEB3"
+      }
+    },
+    {
+      "scope": [
+        "entity.name.type.purelily"
+      ],
+      "settings": {
+        "foreground": "#C0392B",
+        "fontStyle": "bold"
+      }
+    },
+    {
+      "scope": [
+        "support.module.purelily"
+      ],
+      "settings": {
+        "foreground": "#4A90D9"
+      }
+    },
+    {
+      "scope": [
+        "comment.line.double-slash.purelily",
+        "comment.block.purelily"
+      ],
+      "settings": {
+        "foreground": "#1ABC9C",
+        "fontStyle": "italic"
+      }
+    },
+    {
+      "scope": [
+        "constant.other.purelily"
+      ],
+      "settings": {
+        "foreground": "#FFD700",
+        "fontStyle": "bold"
+      }
+    },
+    {
+      "scope": [
+        "markup.deleted",
+        "invalid"
+      ],
+      "settings": {
+        "foreground": "#FF6B35",
+        "fontStyle": "bold"
+      }
+    },
+    {
+      "scope": [
+        "markup.changed",
+        "warning"
+      ],
+      "settings": {
+        "foreground": "#9B59B6"
+      }
+    },
+    {
+      "scope": [
+        "markup.inserted"
+      ],
+      "settings": {
+        "foreground": "#2ECC71",
+        "fontStyle": "bold"
+      }
+    }
+  ]
+}

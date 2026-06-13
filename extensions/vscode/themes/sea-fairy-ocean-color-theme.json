@@ -1,0 +1,129 @@
+{
+  "name": "Sea Fairy Ocean",
+  "type": "dark",
+  "colors": {
+    "editorBackground": "#001520",
+    "editorForeground": "#B0D0E0",
+    "editorLineHighlight": "#002A40",
+    "editorSelection": "#004060",
+    "editorCursor": "#00BFFF",
+    "editorLineNumbers": "#006080",
+    "editorIndentGuides": "#003050",
+    "activityBarBackground": "#002A40",
+    "activityBarForeground": "#00BFFF",
+    "sideBarBackground": "#001520",
+    "sideBarBorder": "#003050",
+    "listActiveBackground": "#004060",
+    "statusBarBackground": "#0080C0",
+    "statusBarForeground": "#FFFFFF",
+    "tabActiveBorder": "#00BFFF",
+    "inputBackground": "#002A40",
+    "inputForeground": "#B0D0E0",
+    "inputBorder": "#004060",
+    "buttonBackground": "#0080C0",
+    "focusBorder": "#00BFFF",
+    "titleBarBackground": "#001520",
+    "titleBarForeground": "#00BFFF",
+    "terminalBackground": "#001520",
+    "terminalForeground": "#B0D0E0",
+    "terminalCursor": "#00BFFF",
+    "terminalAnsiCyan": "#00BFFF",
+    "terminalAnsiBlue": "#0080C0",
+    "panelBackground": "#001520",
+    "panelBorder": "#003050",
+    "dropdownBackground": "#002A40",
+    "dropdownForeground": "#B0D0E0",
+    "dropdownBorder": "#004060",
+    "scrollbarSliderBackground": "#00BFFF80"
+  },
+  "tokenColors": [
+    {
+      "scope": [
+        "keyword.control.bloom.purelily",
+        "keyword.control.ancient.purelily",
+        "keyword.control.wish.purelily",
+        "keyword.control.friend.purelily",
+        "keyword.control.heal.purelily",
+        "keyword.control.iflight.purelily",
+        "keyword.control.moonpath.purelily",
+        "keyword.control.repeat.purelily",
+        "keyword.control.timeflow.purelily",
+        "keyword.control.purelily",
+        "keyword.other.purelily"
+      ],
+      "settings": {
+        "foreground": "#00BFFF",
+        "fontStyle": "bold"
+      }
+    },
+    {
+      "scope": [
+        "keyword.async.purelily"
+      ],
+      "settings": {
+        "foreground": "#9B59B6",
+        "fontStyle": "bold"
+      }
+    },
+    {
+      "scope": [
+        "string.quoted.double.purelily"
+      ],
+      "settings": {
+        "foreground": "#2ECC71"
+      }
+    },
+    {
+      "scope": [
+        "constant.numeric.purelily"
+      ],
+      "settings": {
+        "foreground": "#F1C40F"
+      }
+    },
+    {
+      "scope": [
+        "entity.name.function.purelily"
+      ],
+      "settings": {
+        "foreground": "#F5DEB3"
+      }
+    },
+    {
+      "scope": [
+        "entity.name.type.purelily"
+      ],
+      "settings": {
+        "foreground": "#E74C3C",
+        "fontStyle": "bold"
+      }
+    },
+    {
+      "scope": [
+        "support.module.purelily"
+      ],
+      "settings": {
+        "foreground": "#00BFFF"
+      }
+    },
+    {
+      "scope": [
+        "comment.line.double-slash.purelily",
+        "comment.block.purelily"
+      ],
+      "settings": {
+        "foreground": "#1ABC9C",
+        "fontStyle": "italic"
+      }
+    },
+    {
+      "scope": [
+        "constant.other.purelily"
+      ],
+      "settings": {
+        "foreground": "#F1C40F",
+        "fontStyle": "bold"
+      }
+    }
+  ]
+}

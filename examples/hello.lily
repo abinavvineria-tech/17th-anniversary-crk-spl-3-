@@ -1,0 +1,22 @@
+// 🌸 PureLily 17 - Hello, Cookie Kingdom!
+// 🎉 Celebrating 17 Years of Cookie Run!
+
+fn greet(name: string) - > string {
+return "Welcome to the Cookie Kingdom, " + name + "!"
+}
+
+const ANNIVERSARY = 17
+
+fn main() {
+let message = greet("Pure Vanilla Cookie")
+print(message)
+print("🎉 Happy " + ANNIVERSARY + "th Anniversary, Cookie Run!")
+
+// The power of friendship
+let friends = ["Pure Vanilla", "White Lily", "Hollyberry"]
+for friend in friends {
+print("💚 " + friend)
+}
+}
+
+main()

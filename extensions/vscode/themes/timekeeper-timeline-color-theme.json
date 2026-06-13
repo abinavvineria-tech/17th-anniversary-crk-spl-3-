@@ -1,0 +1,129 @@
+{
+  "name": "Timekeeper Timeline",
+  "type": "dark",
+  "colors": {
+    "editorBackground": "#0A001A",
+    "editorForeground": "#C0B0E0",
+    "editorLineHighlight": "#1A0030",
+    "editorSelection": "#2D0050",
+    "editorCursor": "#8B5CF6",
+    "editorLineNumbers": "#4A0070",
+    "editorIndentGuides": "#200040",
+    "activityBarBackground": "#1A0030",
+    "activityBarForeground": "#8B5CF6",
+    "sideBarBackground": "#0A001A",
+    "sideBarBorder": "#200040",
+    "listActiveBackground": "#2D0050",
+    "statusBarBackground": "#7C3AED",
+    "statusBarForeground": "#FFFFFF",
+    "tabActiveBorder": "#8B5CF6",
+    "inputBackground": "#1A0030",
+    "inputForeground": "#C0B0E0",
+    "inputBorder": "#2D0050",
+    "buttonBackground": "#7C3AED",
+    "focusBorder": "#8B5CF6",
+    "titleBarBackground": "#0A001A",
+    "titleBarForeground": "#8B5CF6",
+    "terminalBackground": "#0A001A",
+    "terminalForeground": "#C0B0E0",
+    "terminalCursor": "#8B5CF6",
+    "terminalAnsiMagenta": "#8B5CF6",
+    "terminalAnsiCyan": "#1ABC9C",
+    "panelBackground": "#0A001A",
+    "panelBorder": "#200040",
+    "dropdownBackground": "#1A0030",
+    "dropdownForeground": "#C0B0E0",
+    "dropdownBorder": "#2D0050",
+    "scrollbarSliderBackground": "#8B5CF680"
+  },
+  "tokenColors": [
+    {
+      "scope": [
+        "keyword.control.bloom.purelily",
+        "keyword.control.ancient.purelily",
+        "keyword.control.wish.purelily",
+        "keyword.control.friend.purelily",
+        "keyword.control.heal.purelily",
+        "keyword.control.iflight.purelily",
+        "keyword.control.moonpath.purelily",
+        "keyword.control.repeat.purelily",
+        "keyword.control.timeflow.purelily",
+        "keyword.control.purelily",
+        "keyword.other.purelily"
+      ],
+      "settings": {
+        "foreground": "#8B5CF6",
+        "fontStyle": "bold"
+      }
+    },
+    {
+      "scope": [
+        "keyword.async.purelily"
+      ],
+      "settings": {
+        "foreground": "#A78BFA",
+        "fontStyle": "bold"
+      }
+    },
+    {
+      "scope": [
+        "string.quoted.double.purelily"
+      ],
+      "settings": {
+        "foreground": "#2ECC71"
+      }
+    },
+    {
+      "scope": [
+        "constant.numeric.purelily"
+      ],
+      "settings": {
+        "foreground": "#F1C40F"
+      }
+    },
+    {
+      "scope": [
+        "entity.name.function.purelily"
+      ],
+      "settings": {
+        "foreground": "#F5DEB3"
+      }
+    },
+    {
+      "scope": [
+        "entity.name.type.purelily"
+      ],
+      "settings": {
+        "foreground": "#E74C3C",
+        "fontStyle": "bold"
+      }
+    },
+    {
+      "scope": [
+        "support.module.purelily"
+      ],
+      "settings": {
+        "foreground": "#3498DB"
+      }
+    },
+    {
+      "scope": [
+        "comment.line.double-slash.purelily",
+        "comment.block.purelily"
+      ],
+      "settings": {
+        "foreground": "#1ABC9C",
+        "fontStyle": "italic"
+      }
+    },
+    {
+      "scope": [
+        "constant.other.purelily"
+      ],
+      "settings": {
+        "foreground": "#F1C40F",
+        "fontStyle": "bold"
+      }
+    }
+  ]
+}

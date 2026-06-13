@@ -1,0 +1,128 @@
+{
+  "name": "Frost Queen Winter",
+  "type": "dark",
+  "colors": {
+    "editorBackground": "#0A1520",
+    "editorForeground": "#C0D8E8",
+    "editorLineHighlight": "#152838",
+    "editorSelection": "#204050",
+    "editorCursor": "#1ABC9C",
+    "editorLineNumbers": "#306070",
+    "editorIndentGuides": "#1A3040",
+    "activityBarBackground": "#152838",
+    "activityBarForeground": "#1ABC9C",
+    "sideBarBackground": "#0A1520",
+    "sideBarBorder": "#1A3040",
+    "listActiveBackground": "#204050",
+    "statusBarBackground": "#1ABC9C",
+    "statusBarForeground": "#FFFFFF",
+    "tabActiveBorder": "#1ABC9C",
+    "inputBackground": "#152838",
+    "inputForeground": "#C0D8E8",
+    "inputBorder": "#204050",
+    "buttonBackground": "#1ABC9C",
+    "focusBorder": "#1ABC9C",
+    "titleBarBackground": "#0A1520",
+    "titleBarForeground": "#1ABC9C",
+    "terminalBackground": "#0A1520",
+    "terminalForeground": "#C0D8E8",
+    "terminalCursor": "#1ABC9C",
+    "terminalAnsiCyan": "#1ABC9C",
+    "panelBackground": "#0A1520",
+    "panelBorder": "#1A3040",
+    "dropdownBackground": "#152838",
+    "dropdownForeground": "#C0D8E8",
+    "dropdownBorder": "#204050",
+    "scrollbarSliderBackground": "#1ABC9C80"
+  },
+  "tokenColors": [
+    {
+      "scope": [
+        "keyword.control.bloom.purelily",
+        "keyword.control.ancient.purelily",
+        "keyword.control.wish.purelily",
+        "keyword.control.friend.purelily",
+        "keyword.control.heal.purelily",
+        "keyword.control.iflight.purelily",
+        "keyword.control.moonpath.purelily",
+        "keyword.control.repeat.purelily",
+        "keyword.control.timeflow.purelily",
+        "keyword.control.purelily",
+        "keyword.other.purelily"
+      ],
+      "settings": {
+        "foreground": "#1ABC9C",
+        "fontStyle": "bold"
+      }
+    },
+    {
+      "scope": [
+        "keyword.async.purelily"
+      ],
+      "settings": {
+        "foreground": "#9B59B6",
+        "fontStyle": "bold"
+      }
+    },
+    {
+      "scope": [
+        "string.quoted.double.purelily"
+      ],
+      "settings": {
+        "foreground": "#2ECC71"
+      }
+    },
+    {
+      "scope": [
+        "constant.numeric.purelily"
+      ],
+      "settings": {
+        "foreground": "#F1C40F"
+      }
+    },
+    {
+      "scope": [
+        "entity.name.function.purelily"
+      ],
+      "settings": {
+        "foreground": "#F5DEB3"
+      }
+    },
+    {
+      "scope": [
+        "entity.name.type.purelily"
+      ],
+      "settings": {
+        "foreground": "#E74C3C",
+        "fontStyle": "bold"
+      }
+    },
+    {
+      "scope": [
+        "support.module.purelily"
+      ],
+      "settings": {
+        "foreground": "#3498DB"
+      }
+    },
+    {
+      "scope": [
+        "comment.line.double-slash.purelily",
+        "comment.block.purelily"
+      ],
+      "settings": {
+        "foreground": "#1ABC9C",
+        "fontStyle": "italic"
+      }
+    },
+    {
+      "scope": [
+        "constant.other.purelily"
+      ],
+      "settings": {
+        "foreground": "#F1C40F",
+        "fontStyle": "bold"
+      }
+    }
+  ]
+}

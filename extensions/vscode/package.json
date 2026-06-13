@@ -1,0 +1,256 @@
+{
+  "name": "purelily-17",
+  "displayName": "PureLily 17",
+  "description": "🌸 PureLily 17 - The official programming language of the Cookie Kingdom. Syntax highlighting, themes, LSP support, and more for the 17th Anniversary of Cookie Run.",
+  "version": "17.0.0",
+  "publisher": "cookie-kingdom",
+  "license": "MIT",
+  "icon": "icon.png",
+  "engines": {
+    "vscode": "^1.85.0"
+  },
+  "categories": [
+    "Programming Languages",
+    "Themes",
+    "Linters",
+    "Formatters",
+    "Debuggers",
+    "Notebooks",
+    "Testing",
+    "Visualization"
+  ],
+  "keywords": [
+    "purelily",
+    "cookie-run",
+    "lsp",
+    "language-server",
+    "syntax-highlighting",
+    "theme",
+    "17th-anniversary",
+    "cookie-kingdom"
+  ],
+  "activationEvents": [
+    "onLanguage:purelily",
+    "onCommand:lily.runFile",
+    "onCommand:lily.openEncyclopedia",
+    "onCommand:lily.createProject",
+    "onCommand:lily.showTimeline"
+  ],
+  "main": "./out/extension.js",
+  "contributes": {
+    "languages": [
+      {
+        "id": "purelily",
+        "aliases": ["PureLily", "PureLily 17", "lily"],
+        "extensions": [".lily", ".purelily", ".pl"],
+        "configuration": "./language-configuration.json",
+        "icon": {
+          "light": "./icons/lily-light.png",
+          "dark": "./icons/lily-dark.png"
+        }
+      }
+    ],
+    "grammars": [
+      {
+        "language": "purelily",
+        "scopeName": "source.purelily",
+        "path": "../../syntaxes/purelily.tmLanguage.json"
+      }
+    ],
+    "themes": [
+      {
+        "label": "🌸 Pure Vanilla Light",
+        "uiTheme": "vs",
+        "path": "./themes/pure-vanilla-light-color-theme.json"
+      },
+      {
+        "label": "🌿 White Lily Garden",
+        "uiTheme": "vs",
+        "path": "./themes/white-lily-garden-color-theme.json"
+      },
+      {
+        "label": "🍇 Hollyberry Kingdom",
+        "uiTheme": "vs-dark",
+        "path": "./themes/hollyberry-kingdom-color-theme.json"
+      },
+      {
+        "label": "🌑 Dark Cacao Night",
+        "uiTheme": "vs-dark",
+        "path": "./themes/dark-cacao-night-color-theme.json"
+      },
+      {
+        "label": "🧀 Golden Cheese Treasury",
+        "uiTheme": "vs",
+        "path": "./themes/golden-cheese-treasury-color-theme.json"
+      },
+      {
+        "label": "🌙 Moonlight Dreamscape",
+        "uiTheme": "vs-dark",
+        "path": "./themes/moonlight-dreamscape-color-theme.json"
+      },
+      {
+        "label": "🌊 Sea Fairy Ocean",
+        "uiTheme": "vs-dark",
+        "path": "./themes/sea-fairy-ocean-color-theme.json"
+      },
+      {
+        "label": "❄️ Frost Queen Winter",
+        "uiTheme": "vs-dark",
+        "path": "./themes/frost-queen-winter-color-theme.json"
+      },
+      {
+        "label": "🦪 Black Pearl Abyss",
+        "uiTheme": "vs-dark",
+        "path": "./themes/black-pearl-abyss-color-theme.json"
+      },
+      {
+        "label": "🍃 Wind Archer Forest",
+        "uiTheme": "vs-dark",
+        "path": "./themes/wind-archer-forest-color-theme.json"
+      },
+      {
+        "label": "⏳ Timekeeper Timeline",
+        "uiTheme": "vs-dark",
+        "path": "./themes/timekeeper-timeline-color-theme.json"
+      },
+      {
+        "label": "🎉 Anniversary Celebration",
+        "uiTheme": "vs",
+        "path": "./themes/anniversary-celebration-color-theme.json"
+      }
+    ],
+    "commands": [
+      {
+        "command": "lily.runFile",
+        "title": "🌸 Run PureLily File"
+      },
+      {
+        "command": "lily.openEncyclopedia",
+        "title": "📖 Open Cookie Encyclopedia"
+      },
+      {
+        "command": "lily.createProject",
+        "title": "🌸 New PureLily 17 Project"
+      },
+      {
+        "command": "lily.showTimeline",
+        "title": "⏳ Show Timekeeper Timeline"
+      },
+      {
+        "command": "lily.formatDocument",
+        "title": "🎨 Format PureLily Document"
+      },
+      {
+        "command": "lily.buildProject",
+        "title": "🏰 Build PureLily Project"
+      },
+      {
+        "command": "lily.runTests",
+        "title": "🧪 Run PureLily Tests"
+      }
+    ],
+    "keybindings": [
+      {
+        "command": "lily.runFile",
+        "key": "ctrl+f5",
+        "when": "editorLangId == purelily"
+      },
+      {
+        "command": "lily.formatDocument",
+        "key": "shift+alt+f",
+        "when": "editorLangId == purelily"
+      }
+    ],
+    "menus": {
+      "editor/context": [
+        {
+          "command": "lily.runFile",
+          "group": "navigation"
+        },
+        {
+          "command": "lily.openEncyclopedia",
+          "group": "navigation"
+        }
+      ],
+      "explorer/context": [
+        {
+          "command": "lily.runFile",
+          "group": "navigation"
+        }
+      ]
+    },
+    "snippets": [
+      {
+        "language": "purelily",
+        "path": "./snippets/purelily.json"
+      }
+    ],
+    "configuration": {
+      "title": "PureLily 17",
+      "properties": {
+        "purelily.lsp.enabled": {
+          "type": "boolean",
+          "default": true,
+          "description": "Enable the PureLily Language Server"
+        },
+        "purelily.lsp.path": {
+          "type": "string",
+          "default": "lily",
+          "description": "Path to the Lily CLI executable"
+        },
+        "purelily.format.enabled": {
+          "type": "boolean",
+          "default": true,
+          "description": "Enable automatic formatting"
+        },
+        "purelily.format.tabSize": {
+          "type": "number",
+          "default": 4,
+          "description": "Tab size for formatting"
+        },
+        "purelily.format.insertSpaces": {
+          "type": "boolean",
+          "default": true,
+          "description": "Use spaces for indentation"
+        },
+        "purelily.lint.enabled": {
+          "type": "boolean",
+          "default": true,
+          "description": "Enable linting"
+        },
+        "purelily.completions.cookieKnowledge": {
+          "type": "boolean",
+          "default": true,
+          "description": "Show Cookie Knowledge in completions"
+        },
+        "purelily.theme.anniversary": {
+          "type": "boolean",
+          "default": true,
+          "description": "Enable anniversary decorations"
+        },
+        "purelily.semanticTokens.enabled": {
+          "type": "boolean",
+          "default": true,
+          "description": "Enable semantic token coloring"
+        }
+      }
+    }
+  },
+  "scripts": {
+    "vscode:prepublish": "npm run compile",
+    "compile": "echo 'Compiled'",
+    "watch": "echo 'Watching...'",
+    "package": "vsce package"
+  },
+  "devDependencies": {
+    "@types/vscode": "^1.85.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/cookie-kingdom/purelily-17"
+  },
+  "bugs": {
+    "url": "https://github.com/cookie-kingdom/purelily-17/issues"
+  },
+  "homepage": "https://purelily.dev"
+}

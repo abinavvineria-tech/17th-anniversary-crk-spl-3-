@@ -1,0 +1,128 @@
+{
+  "name": "Wind Archer Forest",
+  "type": "dark",
+  "colors": {
+    "editorBackground": "#0A1A0A",
+    "editorForeground": "#C0E0C0",
+    "editorLineHighlight": "#152815",
+    "editorSelection": "#204020",
+    "editorCursor": "#2ECC71",
+    "editorLineNumbers": "#306030",
+    "editorIndentGuides": "#1A301A",
+    "activityBarBackground": "#152815",
+    "activityBarForeground": "#2ECC71",
+    "sideBarBackground": "#0A1A0A",
+    "sideBarBorder": "#1A301A",
+    "listActiveBackground": "#204020",
+    "statusBarBackground": "#27AE60",
+    "statusBarForeground": "#FFFFFF",
+    "tabActiveBorder": "#2ECC71",
+    "inputBackground": "#152815",
+    "inputForeground": "#C0E0C0",
+    "inputBorder": "#204020",
+    "buttonBackground": "#27AE60",
+    "focusBorder": "#2ECC71",
+    "titleBarBackground": "#0A1A0A",
+    "titleBarForeground": "#2ECC71",
+    "terminalBackground": "#0A1A0A",
+    "terminalForeground": "#C0E0C0",
+    "terminalCursor": "#2ECC71",
+    "terminalAnsiGreen": "#2ECC71",
+    "panelBackground": "#0A1A0A",
+    "panelBorder": "#1A301A",
+    "dropdownBackground": "#152815",
+    "dropdownForeground": "#C0E0C0",
+    "dropdownBorder": "#204020",
+    "scrollbarSliderBackground": "#2ECC7180"
+  },
+  "tokenColors": [
+    {
+      "scope": [
+        "keyword.control.bloom.purelily",
+        "keyword.control.ancient.purelily",
+        "keyword.control.wish.purelily",
+        "keyword.control.friend.purelily",
+        "keyword.control.heal.purelily",
+        "keyword.control.iflight.purelily",
+        "keyword.control.moonpath.purelily",
+        "keyword.control.repeat.purelily",
+        "keyword.control.timeflow.purelily",
+        "keyword.control.purelily",
+        "keyword.other.purelily"
+      ],
+      "settings": {
+        "foreground": "#2ECC71",
+        "fontStyle": "bold"
+      }
+    },
+    {
+      "scope": [
+        "keyword.async.purelily"
+      ],
+      "settings": {
+        "foreground": "#9B59B6",
+        "fontStyle": "bold"
+      }
+    },
+    {
+      "scope": [
+        "string.quoted.double.purelily"
+      ],
+      "settings": {
+        "foreground": "#1ABC9C"
+      }
+    },
+    {
+      "scope": [
+        "constant.numeric.purelily"
+      ],
+      "settings": {
+        "foreground": "#F1C40F"
+      }
+    },
+    {
+      "scope": [
+        "entity.name.function.purelily"
+      ],
+      "settings": {
+        "foreground": "#F5DEB3"
+      }
+    },
+    {
+      "scope": [
+        "entity.name.type.purelily"
+      ],
+      "settings": {
+        "foreground": "#E74C3C",
+        "fontStyle": "bold"
+      }
+    },
+    {
+      "scope": [
+        "support.module.purelily"
+      ],
+      "settings": {
+        "foreground": "#3498DB"
+      }
+    },
+    {
+      "scope": [
+        "comment.line.double-slash.purelily",
+        "comment.block.purelily"
+      ],
+      "settings": {
+        "foreground": "#1ABC9C",
+        "fontStyle": "italic"
+      }
+    },
+    {
+      "scope": [
+        "constant.other.purelily"
+      ],
+      "settings": {
+        "foreground": "#F1C40F",
+        "fontStyle": "bold"
+      }
+    }
+  ]
+}
